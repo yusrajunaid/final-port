@@ -103,7 +103,7 @@ export const SKILL_CATEGORIES = [
   {
     title: "AI/ML",
     skills: [
-      { name: "TensorFlow", icon: SiTensorflow, proficiency: 75 },
+      { name: "Matplotlib", icon: SiTensorflow, proficiency: 75 },
       { name: "PyTorch", icon: SiPytorch, proficiency: 70 },
       { name: "Pandas", icon: SiScikitlearn, proficiency: 85 },
     ]

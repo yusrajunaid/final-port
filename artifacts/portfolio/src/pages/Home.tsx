@@ -122,7 +122,7 @@ export default function Home() {
                 </div>
 
                 <p className="text-base text-muted-foreground leading-relaxed mb-8 max-w-md">
-                  {USER_INFO.bio} Currently focused on AI/ML engineering and building developer tools.
+                  {USER_INFO.bio} Interested in Artificial Intelligence and web development, with a focus on creating practical and user-friendly applications.
                 </p>
 
                 <div className="flex flex-wrap items-center gap-3 mb-10">
@@ -186,7 +186,7 @@ export default function Home() {
                   <div className="mt-5 pt-4 border-t border-border">
                     <div className="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-3">Specialization</div>
                     <div className="flex flex-wrap gap-2">
-                      {["Full-Stack Dev", "DevOps", "React"].map((tag) => (
+                      {["Full-Stack Dev", "React"].map((tag) => (
                         <span key={tag} className="px-2.5 py-1 text-xs rounded-md bg-muted text-muted-foreground border border-border/60">
                           {tag}
                         </span>

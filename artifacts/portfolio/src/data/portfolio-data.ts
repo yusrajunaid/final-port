@@ -15,11 +15,12 @@ import {
   SiDocker,
   SiGit
 } from "react-icons/si";
+import {  SiMysql, SiFigma, SiCanva } from "react-icons/si";
 
 export const USER_INFO = {
   name: "Yusra Junaid",
   title: "Full-Stack Developer",
-  bio: "Building robust applications with modern technologies. Passionate about AI/ML and open-source.",
+  bio: "Building robust applications with modern technologies.",
   github: "https://github.com/yusrajunaid",
   linkedin: "https://linkedin.com",
   email: "yusrajunaid16@gmail.com"
@@ -27,11 +28,8 @@ export const USER_INFO = {
 
 export const TECH_STACK = [
   { name: "React", icon: SiReact },
-  { name: "TypeScript", icon: SiTypescript },
   { name: "Python", icon: SiPython },
   { name: "Node.js", icon: SiNodedotjs },
-  { name: "PostgreSQL", icon: SiPostgresql },
-  { name: "TensorFlow", icon: SiTensorflow },
 ];
 
 export const PROJECTS = [
@@ -90,18 +88,16 @@ export const SKILL_CATEGORIES = [
     title: "Frontend",
     skills: [
       { name: "React", icon: SiReact, proficiency: 90 },
-      { name: "TypeScript", icon: SiTypescript, proficiency: 85 },
-      { name: "Next.js", icon: SiNextdotjs, proficiency: 80 },
+      { name: "HTML", icon: SiNextdotjs, proficiency: 80 },
       { name: "Tailwind CSS", icon: SiTailwindcss, proficiency: 95 }
     ]
   },
   {
     title: "Backend",
     skills: [
-      { name: "Node.js", icon: SiNodedotjs, proficiency: 85 },
+      { name: "C++", icon: SiNodedotjs, proficiency: 85 },
       { name: "Python", icon: SiPython, proficiency: 90 },
-      { name: "Express", icon: SiExpress, proficiency: 80 },
-      { name: "FastAPI", icon: SiFastapi, proficiency: 85 }
+      { name: "JavaScript", icon: SiFastapi, proficiency: 85 }
     ]
   },
   {
@@ -109,17 +105,17 @@ export const SKILL_CATEGORIES = [
     skills: [
       { name: "TensorFlow", icon: SiTensorflow, proficiency: 75 },
       { name: "PyTorch", icon: SiPytorch, proficiency: 70 },
-      { name: "Scikit-learn", icon: SiScikitlearn, proficiency: 85 },
-      { name: "LangChain", icon: SiReact, proficiency: 80 } // Fallback icon
+      { name: "Pandas", icon: SiScikitlearn, proficiency: 85 },
     ]
   },
   {
     title: "Database & Tools",
     skills: [
       { name: "PostgreSQL", icon: SiPostgresql, proficiency: 85 },
-      { name: "Redis", icon: SiRedis, proficiency: 75 },
-      { name: "Docker", icon: SiDocker, proficiency: 80 },
-      { name: "Git", icon: SiGit, proficiency: 95 }
+      { name: "MySQL", icon: SiMysql, proficiency: 80 },
+      { name: "Git", icon: SiGit, proficiency: 95 },
+      {name: "Figma", icon: SiFigma, proficiency: 80 },
+      {name: "Canva", icon: SiCanva, proficiency: 80 }
     ]
   }
 ];

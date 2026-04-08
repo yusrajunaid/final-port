@@ -27,18 +27,16 @@ export function PortfolioFooter({ name, github, linkedin, email }: PortfolioFoot
     {
       label: 'Navigation',
       links: [
-        { title: 'Projects', href: '#projects' },
         { title: 'Skills', href: '#skills' },
         { title: 'Experience', href: '#experience' },
-        { title: 'Writing', href: '#writing' },
       ],
     },
     {
       label: 'Social',
       links: [
-        ...(github ? [{ title: 'GitHub', href: github, icon: Github }] : []),
-        ...(linkedin ? [{ title: 'LinkedIn', href: linkedin, icon: Linkedin }] : []),
-        ...(email ? [{ title: 'Email', href: `mailto:${email}`, icon: Mail }] : []),
+        ...(github ? [{ title: 'GitHub', href: "https://github.com/yusrajunaid", icon: Github }] : []),
+        ...(linkedin ? [{ title: 'LinkedIn', href: "https://www.linkedin.com/in/yusra-junaid/", icon: Linkedin }] : []),
+        ...(email ? [{ title: 'Email', href: `mailto:${"yusrajunaid16@gmail.com"}`, icon: Mail }] : []),
       ],
     },
   ];

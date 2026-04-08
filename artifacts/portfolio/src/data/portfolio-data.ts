@@ -89,7 +89,7 @@ export const SKILL_CATEGORIES = [
     skills: [
       { name: "React", icon: SiReact, proficiency: 90 },
       { name: "HTML", icon: SiNextdotjs, proficiency: 80 },
-      { name: "Tailwind CSS", icon: SiTailwindcss, proficiency: 95 }
+      { name: "CSS", icon: SiTailwindcss, proficiency: 95 }
     ]
   },
   {
@@ -103,7 +103,6 @@ export const SKILL_CATEGORIES = [
   {
     title: "AI/ML",
     skills: [
-      { name: "Matplotlib", icon: SiTensorflow, proficiency: 75 },
       { name: "PyTorch", icon: SiPytorch, proficiency: 70 },
       { name: "Pandas", icon: SiScikitlearn, proficiency: 85 },
     ]
@@ -111,7 +110,6 @@ export const SKILL_CATEGORIES = [
   {
     title: "Database & Tools",
     skills: [
-      { name: "PostgreSQL", icon: SiPostgresql, proficiency: 85 },
       { name: "MySQL", icon: SiMysql, proficiency: 80 },
       { name: "Git", icon: SiGit, proficiency: 95 },
       {name: "Figma", icon: SiFigma, proficiency: 80 },
